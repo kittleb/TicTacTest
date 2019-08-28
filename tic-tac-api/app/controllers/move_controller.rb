@@ -55,6 +55,7 @@ class MoveController < ApplicationController
 		# Array to collect all the move hashes
 		moves = []
 
+		# Using recursion to check every possible move and score them
 		availableSpots.size.times do |i|
 
 			move = {}
@@ -77,6 +78,7 @@ class MoveController < ApplicationController
 
 		bestMove = 0
 
+		# Scoring moves to determine the best move of each possible iteration
 		if player == aiPlayer
 			bestScore = -10000
 			moves.size.times do |i|
