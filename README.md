@@ -13,7 +13,7 @@ npm start
 - Client should open and run on localhost:3000
 
 ## Server: Ruby on Rails (Stripped down API mode)
-- Make sure you have Rails >=4 and Ruby >= 2.24 installed
+- Make sure you have Rails >= 5 and Ruby >= 2.2.4 installed
 - In the api directory run:
 ```
 bundle install
