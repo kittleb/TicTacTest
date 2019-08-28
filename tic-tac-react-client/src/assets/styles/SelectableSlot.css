@@ -1,0 +1,18 @@
+.divStyle {
+	display:block;
+	float: left;
+	border:solid 1px #eee;
+	height:100px;
+	width:100px;
+}
+
+.hrefStyle {
+	display: block;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.hrefStyle span.char {
+	margin-top:40px;
+	display: block;
+}
